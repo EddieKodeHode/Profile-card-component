@@ -26,6 +26,7 @@ main {
     width: 300px;
     height: 320px;
     align-self: center;
+    box-shadow: 4px 4px 50px hsla(229, 23%, 23%, 0.3);
 }
 
 /* Classes */
@@ -35,28 +36,54 @@ main {
     background-size: cover;
     height:35%;
     border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
 }
 
 .middleBox {
+    height:40%;
+    border-bottom: solid 1px hsl(0, 0%, 80%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
 
 }
 
 .bottomBox {
-
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5px;
 }
 
-.profilePic {
+.imageHere {
+    height: 35px;
+    align-self: flex-end;
+}
 
+#profilePic {
+    background-image: url(images/image-victor.jpg);
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 4px white solid;
+}
+
+.name {
+    display: flex;
+    margin-top: 50px;
 }
 
 .city {
+    margin-top: 5px;
 
 }
 
 .mediaCount {
 
 }
-
 
 
 /* Fonts */
